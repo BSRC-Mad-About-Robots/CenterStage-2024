@@ -73,7 +73,8 @@ public class FinalOpenCV extends OpenCvPipeline {
         Scalar highHSV = new Scalar(200, 355, 355);
         Mat thresh = new Mat();
         Core.inRange(mat, lowHSV, highHSV, thresh);
-
+//tp
+        int x=0;
         Rect[] rectangles = {
                 new Rect(150, 287, 200, 233), // Adjust the coordinates and dimensions
                 new Rect(470, 287, 430, 233), // Adjust the coordinates and dimensions
